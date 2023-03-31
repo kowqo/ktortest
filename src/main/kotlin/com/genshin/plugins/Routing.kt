@@ -9,7 +9,10 @@ fun Application.configureRouting() {
     
     routing {
         get("/") {
-            call.respondText("Hello Supesadr World!")
+            call.respondText("hello my hello!")
+        }
+        get("/hello") {
+            call.respondText("rfere")
         }
         // Static plugin. Try to access `/static/index.html`
         static("/static") {
